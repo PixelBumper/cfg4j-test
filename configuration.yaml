@@ -1,35 +1,12 @@
-{
-    buildings:{
-        multi:{
-            levels:{
-                1:{
-                    producer:{
-                        resource:wood,
-                        hourlyRate:10
-                    },
-                    recruiter:{
-                        units:[
-                            swordman,
-                            archer
-                        ]
-                    }
-                }
-            }
-        }
-    },
-    buildingsAlternative:{
-        multi1:{
-            level:1
-            producer:{
-                resource:wood,
-                hourlyRate:10
-            },
-            recruiter:{
-                units:[
-                    swordman,
-                    archer
-                ]
-            }
-        }
-    }
-}
+---
+buildings:
+  multi:
+    levels:
+      '1':
+        producer:
+          resource: wood
+          hourlyRate: 10
+        recruiter:
+          units:
+          - swordman
+          - archer
