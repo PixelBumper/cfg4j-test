@@ -23,7 +23,7 @@
             producer:{
                 resource:wood,
                 hourlyRate:10
-            }
+            },
             recruiter:{
                 units:[
                     swordman,
