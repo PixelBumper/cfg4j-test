@@ -1,0 +1,20 @@
+{
+	"buildings": {
+		"multi": {
+			"levels": {
+				"1": {
+					"producer": {
+						"resource": "wood",
+						"hourlyRate": 10
+					},
+					"recruiter": {
+						"units": [
+							"swordman",
+							"archer"
+						]
+					}
+				}
+			}
+		}
+	}
+}
